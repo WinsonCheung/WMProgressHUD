@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01E0EC41DD61E26008A326E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01E0EC31DD61E26008A326E /* QuartzCore.framework */; };
+		D01E0EC61DD61E5E008A326E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01E0EC51DD61E5E008A326E /* UIKit.framework */; };
+		D01E0EC81DD61E72008A326E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01E0EC71DD61E72008A326E /* CoreGraphics.framework */; };
 		D09199601DD6043A004362F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D091995F1DD6043A004362F0 /* main.m */; };
 		D09199631DD6043A004362F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09199621DD6043A004362F0 /* AppDelegate.m */; };
 		D09199661DD6043A004362F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09199651DD6043A004362F0 /* ViewController.m */; };
@@ -15,6 +18,8 @@
 		D091996E1DD6043A004362F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D091996C1DD6043A004362F0 /* LaunchScreen.storyboard */; };
 		D09199791DD6043A004362F0 /* WMProgressHUDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09199781DD6043A004362F0 /* WMProgressHUDDemoTests.m */; };
 		D09199841DD6043A004362F0 /* WMProgressHUDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09199831DD6043A004362F0 /* WMProgressHUDDemoUITests.m */; };
+		D09199941DD604D2004362F0 /* WMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D09199931DD604D2004362F0 /* WMProgressHUD.m */; };
+		D09199971DD604FE004362F0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D09199961DD604FE004362F0 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D01E0EC31DD61E26008A326E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D01E0EC51DD61E5E008A326E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D01E0EC71DD61E72008A326E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D091995B1DD6043A004362F0 /* WMProgressHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMProgressHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D091995F1DD6043A004362F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D09199611DD6043A004362F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		D091997F1DD6043A004362F0 /* WMProgressHUDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMProgressHUDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09199831DD6043A004362F0 /* WMProgressHUDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMProgressHUDDemoUITests.m; sourceTree = "<group>"; };
 		D09199851DD6043A004362F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09199921DD604D2004362F0 /* WMProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProgressHUD.h; sourceTree = "<group>"; };
+		D09199931DD604D2004362F0 /* WMProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProgressHUD.m; sourceTree = "<group>"; };
+		D09199951DD604FE004362F0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D09199961DD604FE004362F0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01E0EC81DD61E72008A326E /* CoreGraphics.framework in Frameworks */,
+				D01E0EC61DD61E5E008A326E /* UIKit.framework in Frameworks */,
+				D01E0EC41DD61E26008A326E /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,9 @@
 		D09199521DD6043A004362F0 = {
 			isa = PBXGroup;
 			children = (
+				D01E0EC71DD61E72008A326E /* CoreGraphics.framework */,
+				D01E0EC51DD61E5E008A326E /* UIKit.framework */,
+				D01E0EC31DD61E26008A326E /* QuartzCore.framework */,
 				D091995D1DD6043A004362F0 /* WMProgressHUDDemo */,
 				D09199771DD6043A004362F0 /* WMProgressHUDDemoTests */,
 				D09199821DD6043A004362F0 /* WMProgressHUDDemoUITests */,
@@ -101,6 +119,7 @@
 		D091995D1DD6043A004362F0 /* WMProgressHUDDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D09199911DD60444004362F0 /* WMProgressHUD */,
 				D09199611DD6043A004362F0 /* AppDelegate.h */,
 				D09199621DD6043A004362F0 /* AppDelegate.m */,
 				D09199641DD6043A004362F0 /* ViewController.h */,
@@ -138,6 +157,17 @@
 				D09199851DD6043A004362F0 /* Info.plist */,
 			);
 			path = WMProgressHUDDemoUITests;
+			sourceTree = "<group>";
+		};
+		D09199911DD60444004362F0 /* WMProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D09199921DD604D2004362F0 /* WMProgressHUD.h */,
+				D09199931DD604D2004362F0 /* WMProgressHUD.m */,
+				D09199951DD604FE004362F0 /* MBProgressHUD.h */,
+				D09199961DD604FE004362F0 /* MBProgressHUD.m */,
+			);
+			name = WMProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09199941DD604D2004362F0 /* WMProgressHUD.m in Sources */,
 				D09199661DD6043A004362F0 /* ViewController.m in Sources */,
+				D09199971DD604FE004362F0 /* MBProgressHUD.m in Sources */,
 				D09199631DD6043A004362F0 /* AppDelegate.m in Sources */,
 				D09199601DD6043A004362F0 /* main.m in Sources */,
 			);
@@ -498,6 +530,7 @@
 				D091998A1DD6043A004362F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D091998B1DD6043A004362F0 /* Build configuration list for PBXNativeTarget "WMProgressHUDDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +539,7 @@
 				D091998D1DD6043A004362F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D091998E1DD6043A004362F0 /* Build configuration list for PBXNativeTarget "WMProgressHUDDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +548,7 @@
 				D09199901DD6043A004362F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
