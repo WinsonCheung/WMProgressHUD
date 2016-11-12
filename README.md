@@ -1,4 +1,4 @@
-# WMProgressHUDDemo
+# WMProgressHUD
 这是一个对MBProgressHUDDE简易封装, 日常项目中需要得功能, 我相信它都能应付:
                        ![WMProgressHUD](https://github.com/WinsonCheung/WMProgressHUDDemo/blob/master/WMProgressHUD.gif)
                        
